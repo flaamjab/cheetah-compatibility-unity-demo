@@ -10,6 +10,13 @@
     "com.unity.timeline": "1.6.4",
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.7.8",
+    "games.cheetah.matches.matchmaking": "0.0.2",
+    "games.cheetah.matches.realtime": "0.0.2",
+    "games.cheetah.matches.registry": "0.0.2",
+    "games.cheetah.statistics.events": "0.0.2",
+    "games.cheetah.system.compatibility": "0.0.2",
+    "games.cheetah.user.accounts": "0.0.2",
+    "games.cheetah.user.store": "0.0.2",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
@@ -41,5 +48,14 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "cheetah.games",
+      "url": "https://npm.cheetah.games",
+      "scopes": [
+        "games.cheetah"
+      ]
+    }
+  ]
 }
