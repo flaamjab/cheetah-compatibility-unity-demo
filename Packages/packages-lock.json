@@ -64,7 +64,7 @@
     },
     "com.unity.nuget.newtonsoft-json": {
       "version": "3.0.2",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -155,91 +155,17 @@
       },
       "url": "https://packages.unity.com"
     },
-    "games.cheetah.matches.factory": {
-      "version": "0.0.2",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "games.cheetah.platform": "0.0.2",
-        "games.cheetah.matches.realtime.shared": "0.0.2"
-      },
-      "url": "https://npm.cheetah.games"
-    },
-    "games.cheetah.matches.matchmaking": {
-      "version": "0.0.2",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "games.cheetah.platform": "0.0.2",
-        "games.cheetah.user.accounts": "0.0.2",
-        "games.cheetah.matches.factory": "0.0.2",
-        "games.cheetah.matches.registry": "0.0.2"
-      },
-      "url": "https://npm.cheetah.games"
-    },
-    "games.cheetah.matches.realtime": {
-      "version": "0.0.2",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "games.cheetah.platform": "0.0.2",
-        "games.cheetah.matches.factory": "0.0.2"
-      },
-      "url": "https://npm.cheetah.games"
-    },
-    "games.cheetah.matches.realtime.shared": {
-      "version": "0.0.2",
-      "depth": 2,
-      "source": "registry",
-      "dependencies": {
-        "games.cheetah.platform": "0.0.2"
-      },
-      "url": "https://npm.cheetah.games"
-    },
-    "games.cheetah.matches.registry": {
-      "version": "0.0.2",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "games.cheetah.platform": "0.0.2",
-        "games.cheetah.matches.realtime": "0.0.2"
-      },
-      "url": "https://npm.cheetah.games"
-    },
     "games.cheetah.platform": {
-      "version": "0.0.2",
-      "depth": 1,
+      "version": "0.0.11",
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "2.0.0"
       },
       "url": "https://npm.cheetah.games"
     },
-    "games.cheetah.statistics.events": {
-      "version": "0.0.2",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://npm.cheetah.games"
-    },
     "games.cheetah.system.compatibility": {
-      "version": "0.0.2",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://npm.cheetah.games"
-    },
-    "games.cheetah.user.accounts": {
-      "version": "0.0.2",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "games.cheetah.platform": "0.0.2"
-      },
-      "url": "https://npm.cheetah.games"
-    },
-    "games.cheetah.user.store": {
-      "version": "0.0.2",
+      "version": "0.0.11",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
